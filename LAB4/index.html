@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Сайт Портфоліо</title>
+</head>
+<body>
+    <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+            if (!e.target.matches('.nav-img')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+            }
+        </script>
+    <div class="background">
+        <div class="main-page">
+            <div class="top">
+                <a id="About"></a>
+                <div class="top-image">
+                    <img class="bgr-image" src="./img/header/bg-image.png" alr="">
+                </div>
+         
+
+                <div class="head-text">
+                    <div class="header">
+                        <input type="image" onclick="myFunction()" class="nav-img" src="./img/icons/GlobalNav.svg" alr=""></input>
+                        <h3>Portofolio</h3>
+                        <h5 class="header-Home">Home</h5>
+                        <h4><a href="#About">About</a></h4>
+                        <h4><a href="#Skills">Skills</a></h4>
+                        <h4><a href="#Portfolio">Portfolio</a></h4>
+                        <h4><a href="#Get in Touch">Contact</a></h4>  
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <h5 class="header-Home">Home</h5>
+                        <h4><a href="#About">About</a></h4>
+                        <h4><a href="#Skills">Skills</a></h4>
+                        <h4><a href="#Portfolio">Portfolio</a></h4>
+                        <h4><a href="#Get in Touch">Contact</a></h4>  
+                    </div> 
+                    <h1>Hi, It’s Théophile Seyrig</h1>
+                    <h2>Designer from Porto, Portugal</h2>
+                    <p class="head-text-p">Latest works</p>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3><a id="About">About</a></h3>
+                <p>Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.</p>
+                <p>Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.</p>
+
+            </div>
+            <div class="skills">
+                <div class="skills-text">
+                    <h2><a id="Skills">Skills</a></h2>
+                    <img class="skills-img" src="./img/portfolio/Profile Picture.png" alt="">
+                </div>
+                <div class="skills-text-1-2">
+                <div class="skills-text-1">
+                    <div class="st11"><h6 >Profile</h6></div>
+                    <h6>UX Research</h6>
+                    <h6>Tools</h6>
+                    <h6>UI Design</h6>
+                    <h6>Tools</h6>
+                    <h6>Front-end Dev</h6>
+                    <h6>Tools</h6>
+                </div>
+                <div class="skills-text-2">
+                    <div class="st12"><p>UI / UX Engineer, Front-end Developer</p></div>
+                    <img class="img-1" src="./img/portfolio/img-1.PNG" alt="">
+                    <p>Paper, Pen, Balsamiq</p>
+                    <img class="img-2" src="./img/portfolio/img-2.PNG" alt="">
+                    <p>Adobe PS, AI, XD, Figma, InVision</p>
+                    <img class="img-3" src="./img/portfolio/img-3.PNG" alt="">
+                    <p>HTML, CSS, JS, Bootstrap, React</p>
+                </div>
+            </div>
+            </div>
+            <div class="portfolio">
+                <div class="port-text">
+                    <h2><a id="Portfolio">Portfolio</a></h2>
+                    <h3>UX Research</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.</p>
+                    <img class="port-im-L" src="./img/portfolio/ChevronLeft(E76B).png" alt="">
+                    <img class="port-im-2" src="./img/portfolio/ChevronRight(E76C).png" alt="">
+                </div>
+                <div class="port-img">
+                    <div class="dir-rect-1">
+                        <img class="rect-1"  src="./img/portfolio/Rectangle.png" alt="">
+                        <img class="rect-2" src="./img/portfolio/Rectangle-2.png" alt="">
+                    </div>
+                    <div class="dir-rect-2">
+                        <img class="rect-3" src="./img/portfolio/Mask Group.png" alt="">
+                        <img class="rect-4" src="./img/portfolio/Rectangle-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="getInT">
+                <h1 class="getInT-top"><a id="Get in Touch">Get in Touch</a></h1>
+                <div class="getInT-main">
+                    <div class="getInT-1">
+                        <h6>Dribbble</h6>
+                        <h6>Behance</h6>
+                        <h6>CodePen</h6>
+                        <h6>GitHub</h6>
+                        <h6>Medium</h6>
+                    </div>
+                    <div class="getInT-2">
+                        <h6>LinkedIn</h6>
+                        <h6>Facebook</h6>
+                        <h6>Instagram</h6>
+                        <h6>Twitter</h6>
+                    </div>
+                    <div class="getInT-3">
+                        <h6>seyrig@mailme.com</h6>
+                        <h6>+ 55 6645 665544</h6>
+                    </div>
+                    <a href="#About"><img class="getInT-up" src="./img/icons/ChevronUp(E70E).png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

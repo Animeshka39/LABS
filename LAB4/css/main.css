@@ -1,0 +1,781 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+@media (min-width: 576px)  {
+html,
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+  
+}
+.header A { 
+    text-decoration: none; 
+    color: aliceblue;
+}
+.head-text{
+    display: grid;
+    position: absolute;
+    background: #C66C494D;
+    top: 0px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    width: 100%;
+    min-width: 1300px;
+    /* height: 20%; */
+    height: 693px;
+
+}
+.header{
+    display: flex;
+    margin-top: 93px;
+    width: 100%;
+    /* max-width: 1440px; */
+    min-width: 1300px;
+}
+.header h4{
+    margin-left: 6%;
+    font-family: Libre Franklin;
+    color: aliceblue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header h3{
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 20px;
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.header-Home{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 22px;
+}
+
+
+.head-text h1{
+    font-family: Libre Franklin;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left; 
+    margin-left: 10%;
+}
+.head-text h2{
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10%;
+}
+.head-text-p{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 10%;
+
+
+}
+.bgr-image{
+    position: relative;
+    width: 100%;
+    min-width: 1300px;
+    top: 0px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 693px;
+
+
+}
+.about-text{
+    height: 500px;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+.about-text h3{
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;   
+    margin-left: 10%;
+    margin-top: 93px;
+    margin-bottom: 76px;
+}
+.about-text p{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 76;
+    margin-bottom: 115;
+    text-align: justify;
+}
+.skills{
+    display: flex;
+    background: #FFFAF2;
+    height: 693px;
+    min-width: 1300px;
+}
+.skills-text{
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10%;
+}
+.skills-img{
+    margin: 0;
+    margin-top: 86px;
+    height: 340px;
+    width: 350px;
+    border-radius: 0px;
+
+}
+.skills-text-1{
+    display: grid;
+    grid-template-columns: 150px;
+    flex-shrink: 0;
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 208px;   
+    width: 200px;
+    height: 350px;
+}
+.st11{
+    margin-bottom: 42px;
+    /* padding-top: 17px; */
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.st12{
+    margin-bottom: 68px;
+}
+
+.skills-text-1 h6{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 22px;
+
+}
+
+.skills-text h2{
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 96px; 
+    margin-bottom: 0;
+}
+.skills-text-2{
+
+    margin: 0;
+    margin-top: 190px;  
+    width: 381px;
+    height: 350px;
+}
+.skills-text-2 p{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.portfolio{
+    height: 822px;
+    width: 1400;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0;
+    display: flex;
+}
+.portfolio h2{
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin-top: 93px;  
+    margin-bottom: 86px;
+    border-radius: nullpx;
+
+}
+.portfolio h3{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 48px;
+    border-radius: nullpx;
+}
+.portfolio p{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+    border-radius: nullpx;
+    width: 349px;
+}
+.port-text{
+    width: 350px;
+    margin-right: 125px;
+}
+.port-text img{
+    margin-top: 235px;
+}
+.port-im-L{
+    margin-right: 14px;
+}
+.dir-rect-1{
+    margin-right: 30px;
+}
+.rect-1{
+    width: 350px;
+    margin-bottom: 26px;    
+} 
+.rect-2{
+    width: 350px; 
+} 
+.rect-3{
+    width: 250px; 
+    margin-bottom: 26px; 
+} 
+.rect-4{
+    width: 250px;
+} 
+.port-img{
+    display: flex;
+    height: 500px;
+    width: 635px;
+    /* padding-top: 10%; */
+    margin-top: 274px;
+}
+.getInT{
+    min-width: 1300px;
+    height: 528px;
+    background-color: #FFFAF2;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 190px;
+    padding-top: 96px;
+    
+}
+
+.getInT-top{
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;    
+    height: 29px;
+    width: 143px;
+    margin: 0;
+
+}
+.getInT-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 51px;
+    height: 166px;
+    max-width: 900px;
+
+}
+.getInT-main h6{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+}
+.nav-img{
+    display: none;
+}
+.skills-text-1-2{
+    display: flex;
+}
+.getInT-up{
+    display: none;
+}
+.dropdown-content{
+    display: none;
+}
+}
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+@media (max-width: 575px)   {
+
+    html,
+    body{
+    padding: 0;
+    margin: 0;
+    min-width: 575px;
+    max-width: 575px;
+
+    }
+    .main-page{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .header a { 
+        display: none;
+        text-decoration: none; 
+        color: aliceblue;
+    }
+    .head-text{
+        display: grid;
+        align-items:flex-start;
+        justify-items: center;
+        min-width: 575px;
+        position: absolute;
+        background: #C66C494D;
+        top: 0px;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        color: aliceblue;
+        width: 100%;
+        /* height: 20%; */
+        height: 275px;
+    }
+    .top-image{
+        display: flex;
+        margin: 0;  
+        padding: 0;
+    }
+    .header{
+        display: flex;
+        margin-top: 39px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    .header h3{
+        
+        font-family: Libre Franklin;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+margin-left: 40px;
+        
+    }
+    .nav-img{
+        margin-right: 70px;
+        margin-left: 34px;
+        height: 24px;
+        width: 24px;
+        border-radius: nullpx;
+    }
+    .header-Home{
+        display: none;
+    }
+    .nav-img:hover .header-Home{
+        display: block;
+    }
+    .nav-img:hover .header h4{
+        display: block;
+    }
+    .dropdown-content{
+        display: none;
+        margin-top: 40px;
+        margin-right: 450px;
+        position: absolute;
+        background: none;
+
+    }
+    .dropdown-content a {
+        margin-left: 6%;
+        font-family: Libre Franklin;
+        color: aliceblue;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .head-text h1{
+        font-family: Libre Franklin;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+
+    }
+    .head-text h2{
+        font-family: Libre Franklin;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .head-text-p{
+        font-family: Libre Franklin;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: underline;
+    }
+    .bgr-image{
+        position: relative;
+        width: 100%;
+        top: 0px;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        height: 275px;
+    }
+    .about-text{
+        display: grid;
+        align-items:flex-start;
+        justify-items: center;
+        min-width: 575px;
+        padding-bottom: 15px;
+        height: 293px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align:justify;
+    }
+    .about-text h3{
+        font-family: Libre Franklin;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .about-text p{
+        font-family: Libre Franklin;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: justified;
+    }
+    .skills{
+        display: grid;
+        align-items:flex-start;
+        justify-items: center;
+        background: #FFFAF2;
+        height: 617px;
+    }
+    .skills-text{
+        display: grid;
+        justify-items: center;
+        font-family: Libre Franklin;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 25px;
+    }
+    .skills-img{
+        margin: 0;
+        padding-top: 25px;
+        height: 224px;
+        width: 218px;
+        border-radius: 0px;
+    }
+    .skills-text-1-2{
+        display: flex;
+    }
+    .skills-text-1{
+        display: grid;
+        grid-template-columns: 150px;
+        flex-shrink: 0;
+        margin: 0;
+        width: 100px;
+        height: 150px;
+    }
+    .st11{
+        font-family: Libre Franklin;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 12px;
+        /* margin-bottom: 8px; */
+    }
+    .skills-text-1 h6{
+        font-family: Libre Franklin;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 9px;
+    }
+    .skills-text h2{
+        font-family: Libre Franklin;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        /* margin-top: 96px;  */
+        margin: 0;
+    }
+    .skills-text-2{
+        margin: 0;
+        width: 211px;
+        height: 280px;
+    }
+    .skills-text-2 img{
+        width: 211px;
+        height: 18px;
+    }
+    .skills-text-2 p{
+        font-family: Libre Franklin;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .portfolio{
+        display: grid;
+        align-items:flex-start;
+        justify-items: center;
+        grid-auto-rows: 170px 240px;
+        min-width: 575px;
+        height: 454px;
+        width: 575px;
+        padding-top: 0;
+    }
+    .portfolio h2{
+        font-family: Libre Franklin;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .portfolio h3{
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .portfolio p{
+        font-family: Libre Franklin;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;    
+    }
+    .port-text{
+        width: 575px;
+        display: grid;
+        align-items:flex-start;
+        justify-items: center;
+        min-width: 575px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .port-text img{
+        margin-top: 25px;
+    }
+    .port-im-L{
+        display: none;
+        margin-right: 14px;
+    }
+    .port-im-2{
+        display: none;
+        margin-right: 14px;
+    }
+    .dir-rect-1{
+        margin-right: 14px;
+        width: 170px;
+    }
+    .dir-rect-2{
+        width: 124px; 
+    }
+    .rect-1{
+        width: 170px;
+        margin-bottom: 12px;    
+    } 
+    .rect-2{
+        width: 170px; 
+    } 
+    .rect-3{
+        width: 124px; 
+        margin-bottom: 12px; 
+    } 
+    .rect-4{
+        width: 124px;
+    } 
+    .port-img{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 575px;
+        margin-top: 24px;
+    }
+    .getInT{
+        display: grid;
+        align-items:flex-start;
+        justify-items: center;
+        grid-auto-rows: 60px 250px ;
+        min-width: 575px;
+        height: 360px;
+        background-color: #FFFAF2;
+        padding-left: 42px;
+        padding-top: 16px;
+    }
+
+    .getInT-top{
+        font-family: Libre Franklin;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .getInT-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        height: 166px;
+    }
+    .getInT-2{
+        padding-right: 80px;
+    }
+    .getInT-main h6{
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 16px;
+    }
+    .getInT-up{
+        height: 15px;
+        width: 24px;
+        margin-right: 32px;
+        margin-top: 150px;
+        border-radius: nullpx;
+    }
+    .show {display: block;}
+    
+}
